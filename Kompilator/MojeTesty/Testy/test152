@@ -1,0 +1,17 @@
+VAR
+	i
+BEGIN
+	i := 0;
+	WHILE i < 5 DO
+		WRITE i;
+		i := i + 1;
+	ENDWHILE
+END
+
+OUTPUT
+0
+1
+2
+3
+4
+ENDOUTPUT

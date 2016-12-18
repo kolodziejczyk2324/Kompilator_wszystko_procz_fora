@@ -1,0 +1,40 @@
+VAR
+	x iloraz
+BEGIN
+	iloraz := 98 / 45;
+	WRITE iloraz;
+	iloraz := 14321 / 345;
+	WRITE iloraz;
+	iloraz := 1234 / 966;
+	WRITE iloraz;
+	iloraz := 543 / 5215;
+	WRITE iloraz;
+	iloraz := 123 / 123;
+	WRITE iloraz;
+	iloraz := 435212 / 56;
+	WRITE iloraz;
+	iloraz := 7611 / 11;
+	WRITE iloraz;
+	iloraz := 664 / 0;
+	WRITE iloraz;
+	iloraz := 1 / 654;
+	WRITE iloraz;
+	iloraz := 2345 / 9;
+	WRITE iloraz;
+	iloraz := 8875845 / 441;
+	WRITE iloraz;
+END
+
+OUTPUT
+2
+41
+1
+0
+1
+7771
+691
+0
+0
+260
+20126
+ENDOUTPUT

@@ -1,0 +1,18 @@
+VAR
+	i n
+BEGIN
+	i := 0;
+	n := 400;
+	WHILE i <= n DO
+		IF i = 374 THEN
+			WRITE i;
+		ELSE
+			SKIP;
+		ENDIF
+		i := i + 1;
+	ENDWHILE
+END
+
+OUTPUT
+374
+ENDOUTPUT

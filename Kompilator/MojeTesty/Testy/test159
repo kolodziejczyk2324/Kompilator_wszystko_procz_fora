@@ -1,0 +1,58 @@
+VAR
+	x y iloraz
+BEGIN
+	x := 11;
+	y := 4;
+	iloraz := x / y;
+	WRITE iloraz;
+	x := 156;
+        y := 6;
+        iloraz := x / y;
+        WRITE iloraz;
+	x := 441;
+        y := 89;
+        iloraz := x / y;
+        WRITE iloraz;
+	x := 726;
+        y := 17;
+        iloraz := x / y;
+        WRITE iloraz;
+	x := 1549;
+        y := 46;
+        iloraz := x / y;
+        WRITE iloraz;
+	x := 569735;
+        y := 49;
+        iloraz := x / y;
+        WRITE iloraz;
+	x := 7896154;
+        y := 7896154;
+        iloraz := x / y;
+        WRITE iloraz;
+	x := 7896154;
+        y := 198;
+        iloraz := x / y;
+        WRITE iloraz;
+	x := 154968592;
+        y := 78962;
+        iloraz := x / y;
+        WRITE iloraz;
+	x := 888154;
+        y := 15;
+        iloraz := x / y;
+        WRITE iloraz;
+
+END
+
+OUTPUT
+2
+26
+4
+42
+33
+11627
+1
+39879
+1962
+59210
+ENDOUTPUT

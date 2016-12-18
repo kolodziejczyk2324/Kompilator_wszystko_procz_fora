@@ -1,0 +1,39 @@
+VAR
+	x y modulo
+BEGIN
+	x := 543;
+	modulo := x % 23;
+	WRITE modulo;
+	x := 6543;
+	modulo := x % 1123;
+	WRITE modulo;
+	x := 9855;
+	modulo := x % 432;
+	WRITE modulo;
+	x := 65363456;
+	modulo := x % 1234;
+	WRITE modulo;
+	x := 4312;
+	modulo := x % 43;
+	WRITE modulo;
+	x := 432123;
+	modulo := x % 675;
+	WRITE modulo;
+	x := 123;
+	modulo := x % 0;
+	WRITE modulo;
+	x := 0;
+	modulo := x % 123;
+	WRITE modulo;
+END
+
+OUTPUT
+14
+928
+351
+944
+12
+123
+0
+0
+ENDOUTPUT

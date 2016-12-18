@@ -1,0 +1,28 @@
+VAR
+	i modulo n
+BEGIN
+	i := 1;
+	n := 20;
+	WHILE i <= n DO
+		modulo := i % 2;
+		IF modulo = 0 THEN
+			WRITE i;
+		ELSE
+			SKIP;
+		ENDIF
+		i := i + 1;
+	ENDWHILE
+END
+
+OUTPUT
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+ENDOUTPUT

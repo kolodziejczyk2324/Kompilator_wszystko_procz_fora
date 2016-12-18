@@ -1,0 +1,21 @@
+VAR
+	x i iloczyn n
+BEGIN
+	x := 7;
+	i := 11;
+	iloczyn := x * 99;
+	WRITE iloczyn;
+	n := 4;
+	i := 1;
+	iloczyn := 1;
+	WHILE i <= n DO
+		iloczyn := iloczyn * 7;
+		i := i + 1;	
+	ENDWHILE
+	WRITE iloczyn;
+END
+
+OUTPUT
+693
+2401
+ENDOUTPUT

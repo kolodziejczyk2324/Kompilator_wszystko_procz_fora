@@ -1,0 +1,31 @@
+VAR
+	x y modulo
+BEGIN
+	modulo := 6543 % 654;
+	WRITE modulo;
+	modulo := 43215 % 876;
+	WRITE modulo;
+	modulo := 654723 % 123455764;
+	WRITE modulo;
+	modulo := 123562 % 2345;
+	WRITE modulo;
+	modulo := 1235666 % 87584;
+	WRITE modulo;
+	modulo := 999999999 % 7;
+	WRITE modulo;
+	modulo := 0 % 7666;
+	WRITE modulo;
+	modulo := 564 % 0;
+	WRITE modulo;
+END
+
+OUTPUT
+3
+291
+654723
+1622
+9490
+5
+0
+0
+ENDOUTPUT

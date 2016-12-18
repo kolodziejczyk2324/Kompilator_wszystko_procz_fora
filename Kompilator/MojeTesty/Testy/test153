@@ -1,0 +1,16 @@
+VAR
+	i suma n
+BEGIN
+	i := 0;
+	suma := 0;
+	n := 400;
+	WHILE i <= n DO
+		suma := suma + i;
+		i := i + 1;
+	ENDWHILE
+	WRITE suma;
+END
+
+OUTPUT
+80200
+ENDOUTPUT
